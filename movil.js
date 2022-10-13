@@ -1,6 +1,6 @@
 class movil{
 constructor(){
-    this.energy
+    this.energy = 100;
 }
 
 
@@ -53,9 +53,10 @@ addContact(){
 turnOff(){
     let status = false
     if (this.energy < 100 && this.energy >= 0) {
-        this.energy += 50  
+        this.energy += 25  
         status = true                    
     }
+    return status
 }            
 
 }

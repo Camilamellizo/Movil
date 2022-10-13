@@ -13,17 +13,19 @@
     <div class=" h-screen grid  justify-items-center mt-8 bg-movil bg-no-repeat bg-center bg-contain ">
     <div class="w-full max-w-xs pt-20">
         <form class=" px-8 pt-20 pb-8 my-4">
-            <div class="mb-6">
+            <div class="mb-6" id="esconder">
             <label class="block text-gray-700 text-sm font-bold mb-4 mt-8" for="password">
               Desbloquear Pantalla
             </label>
             <input class="shadow appearance-none  rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="*******">
             </div>
             <div class=" grid justify-items-center">
-            <button onclick="blocking()" class="bg-purple-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+            <button onclick="phoneblocking()" class="bg-purple-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
             <a href="./index2.html">Entrar</a>  
             </button>
-          
+            <div class="flex justify-center my-8 ">       
+              <label for="text" class="form-label " id="textbox"></label>
+            </div>          
           </div>
         </form>
       </div>
