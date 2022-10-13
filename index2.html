@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
-    <link rel="stylesheet" href="index2.html">
-    <title>Movil</title>
+    <title>Pantalla</title>
     <script type="text/javascript" src="movil.js"></script>
     <script type="text/javascript" src="function.js"></script>
 </head>
 <body>
-    <div class=" h-screen grid  justify-items-center mt-8 bg-movil bg-no-repeat bg-center bg-contain ">
+  <div class=" h-screen grid  justify-items-center mt-8 bg-movil bg-no-repeat bg-center bg-contain text-black">
     <div class="w-full max-w-xs pt-20">
         <form class=" px-8 pt-20 pb-8 my-4 border border-red-900">
-            <div class="mb-6">
-            <label class="block text-gray-700 text-sm font-bold mb-4 mt-8" for="password">
-              Desbloquear Pantalla
-            </label>
-            <input class="shadow appearance-none  rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="*******">
-            </div>
+          <div class="  px-4 py-4  justify-center">       
+            <label for="name" class="form-label " hidden id="energy">Energia:</label>
+            <p1 class="text-amber-600 mr-4" hidden id="number1">100</p1>
+            <p hidden id="separador1">|</p>
+            <label for="name" class="form-label ml-4" hidden id="hungry">Hambre:</label>
+            <p2 class="text-amber-600 mr-4" hidden id="number2" >0</p2>
+            
+          </div>
             <div class=" grid justify-items-center">
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
               Entrar

@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+      'movil': "url('./carcsa-movil.png')",
+    }     },
   },
   plugins: [],
 }
