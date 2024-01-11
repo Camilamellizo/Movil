@@ -1,10 +1,21 @@
 const phone = new movil
 
 function phoneblocking(){
-    const passw =  document.getElementById("password");   
+    const passw =  document.getElementById("password");  
+    
+   /* for(let i = 1; i<=3; i++){
+        this.password = window.prompt("Escribe la Contraseña")
+    
+    if(passw == "123"){
+     alert("Contraseña correcta")
+     break;
+    }else{
+        alert ("Contraseña Incorrecta")
+    }
+   }*/
     const esconder =  document.getElementById("esconder");
 
-    textbox.innerHTML = "Welcome"
+    textbox.innerHTML = "Telefono Bloqueado"
     esconder.style.visibility = 'hidden';  
 
     
@@ -100,7 +111,7 @@ function phoneOff(){
     number1.innerHTML = phone.energy;
 
     if(status){
-        textbox.innerHTML = "Apagando....."
+        textbox.innerHTML = "Cargando....."
     }  else{
         textbox.innerHTML = "desconecta el cargador."
 
